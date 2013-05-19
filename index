@@ -1,0 +1,108 @@
+<!doctype html xmlns:og="http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Lightbank Associate</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<meta property="og:title" content="Lightbank Associate" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="images/IMG_4202.JPG" />
+
+	<link rel="image_src" href="images/IMG_4202.JPG" />
+
+	<script type="text/javascript" src="swfobject.js"></script>
+	<script type="text/javascript" src="rotatetool.js"></script>
+</head>
+
+
+<style>
+
+#body{
+    text-align:center;
+}
+
+
+#flashborder{
+    margin : 0 auto;
+    margin-top: 30px;
+    width: 500px;
+    height: 375px;    
+    background: white;    
+}
+
+#flashcontent{    
+}
+
+
+</style>
+
+</head>
+<body bgcolor="white">
+
+<div id="Header">
+	<center><img src="lightbank associate header.png"></center>
+</div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div id="flashborder">
+  <div id="flashcontent">
+  </div>
+</div>
+
+	<script type="text/javascript">
+	
+
+			if(swfobject.hasFlashPlayerVersion("9.0.115"))
+			{
+				var flashvars = {};
+				flashvars.path = "";
+				
+				var params = {};
+				params.scale = "noScale";
+				params.salign = "lt";
+				params.allowScriptAccess = "always";
+				params.allowFullScreen = "true";
+				
+				var attributes = {};
+			    attributes.id = "myFlash";
+		        attributes.name = "myFlash";
+				
+				swfobject.embedSWF("rotateTool.swf", "flashcontent", "500", "375", "10.0.0","expressInstall.swf", flashvars, params, attributes);
+			}
+			else
+			{
+				if (typeof(RotateTool) == 'undefined') {
+					alert('rotatetool.js not loaded!');
+				}
+				else
+				{
+					var jsParams    = {};
+					jsParams.path   = "";
+					jsParams.id     = "Pete360";
+					jsParams.target = "flashcontent";
+					jsParams.targetWidth  = "500";
+					jsParams.targetHeight = "375";
+					RotateTool.add(jsParams);
+				}
+			}
+
+
+		
+	</script>
+	
+	<div id="bio">
+		<center><img src="360 psd.png"></center>
+	</div>
+
+</body>
+</html>
